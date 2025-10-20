@@ -6,9 +6,6 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import {
-  faUser,
-  faFolderOpen,
-  faLaptopCode,
   faEnvelope,
   faMapMarkerAlt,
   faPhone,
@@ -21,12 +18,6 @@ import Logo from "../Logo/Logo";
 import { NavLink } from "react-router";
 
 const Footer = () => {
-  const handleScroll = (sectionId) => {
-    const el = document.getElementById(sectionId);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <footer className="bg-accent">
